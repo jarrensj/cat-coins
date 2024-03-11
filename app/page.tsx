@@ -1,9 +1,11 @@
+import Ranking from "@/components/Ranking";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <h1 className="text-4xl font-bold">gmeow</h1>
+      <h1 className="text-4xl font-bold mb-2">gmeow</h1>
+      <Ranking />
     </main>
   );
 }
